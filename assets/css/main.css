@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+ul {
+  background-color: red;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 50px;
+  list-style: none;
+}
+
+a {
+  color: whitesmoke;
+  padding: 10px;
+}
+
+a:hover {
+  color: plum;
+}
+
+div {
+  margin-left: 180px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 2px solid white;
+}
+
+.cerrar {
+    position: absolute;
+    top: 55px;
+    margin-left: 15px;
+    color:  white;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: #AAA;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+  
+}
